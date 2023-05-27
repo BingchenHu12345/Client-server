@@ -1,6 +1,8 @@
 //CLIENT
 
 
+import common.packets.Packet;
+
 import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
@@ -15,19 +17,23 @@ public class Main {
         try(Socket socket = new Socket(hostname, port)){
             //get ability to recieve the dattaaa
             InputStream is=socket.getInputStream();
+            ObjectInputStream ois=new ObjectInputStream(is);
 
             OutputStream os=socket.getOutputStream();
-            PrintWriter pw=new PrintWriter(os,true);
+            ObjectOutputStream oos=new ObjectOutputStream(os);
+//            PrintWriter pw=new PrintWriter(os,true);
 
             // convert socket to reading form
-            BufferedReader r = new BufferedReader(new InputStreamReader(is));
-            System.out.println(r.readLine());
+//            BufferedReader r = new BufferedReader(new InputStreamReader(is));
 
-            pw.println("vjhvghvbjknbhgvfcdxsfcgvh");
+            Packet recPacket= (Packet) ois.readObject();
+
+            System.out.println(recPacket.num);
 
 
-        } catch (IOException e) {
+        } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
     }
 }
+
