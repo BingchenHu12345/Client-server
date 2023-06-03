@@ -6,6 +6,8 @@ import common.packets.Packet;
 import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args)
@@ -25,15 +27,29 @@ public class Main {
 
             // convert socket to reading form
 //            BufferedReader r = new BufferedReader(new InputStreamReader(is));
+            int count =0;
+            Scanner sc = new Scanner(System.in);
+            System.out.println("whats your name");
 
-            Packet recPacket= (Packet) ois.readObject();
+            String name=sc.nextLine();
+            while(true) {
+                Packet recPacket = (Packet) ois.readObject();
 
-            System.out.println(recPacket.num);
+                System.out.println(recPacket);
+
+                System.out.println("Write back");
+                String respond = sc.nextLine();
+                count+=1;
+                Packet packet = new Packet(count,name , new Date(), respond);
+
+                oos.writeObject(packet);
+            }
 
 
         } catch (IOException | ClassNotFoundException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
+
 }
 

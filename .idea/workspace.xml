@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61b882ba-e5ee-4326-bff5-db2f47fc58a4" name="Changes" comment="EASIEST server evea" />
+    <list default="true" id="61b882ba-e5ee-4326-bff5-db2f47fc58a4" name="Changes" comment="EASIEST server evea">
+      <change afterPath="$PROJECT_DIR$/out/production/network/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/common/packets/Packet.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/common/packets/Packet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/packets/Packet.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/packets/Packet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/common/packets/Packet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/common/packets/Packet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/network/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/network/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/network/Network.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/network/Network.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/network/common/packets/Packet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/network/common/packets/Packet.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,15 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_directory_selection": "/Users/bingchen/IdeaProjects/network/client/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/bingchen/IdeaProjects/network/client/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -90,22 +102,18 @@
       <option name="project" value="LOCAL" />
       <updated>1685210416670</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="EASIEST server evea">
+      <created>1685214169948</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685214169948</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="EASIEST server evea" />
     <option name="LAST_COMMIT_MESSAGE" value="EASIEST server evea" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/client/src/Main.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
