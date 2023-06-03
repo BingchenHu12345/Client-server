@@ -6,6 +6,7 @@ import common.packets.Packet;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.SocketException;
 import java.util.Date;
 import java.util.Objects;
 import java.util.Scanner;
@@ -74,8 +75,12 @@ public class Network
 
 
             }
-        } catch (IOException | ClassNotFoundException e) {
+        }
+        catch (ClassNotFoundException e) {
            throw new RuntimeException(e);
+        }
+        catch (IOException e){
+            System.out.println("User left");
         }
 
     }

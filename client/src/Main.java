@@ -5,6 +5,7 @@ import common.packets.Packet;
 
 import java.io.*;
 import java.net.Socket;
+import java.net.SocketException;
 import java.net.UnknownHostException;
 import java.util.Date;
 import java.util.Scanner;
@@ -52,8 +53,11 @@ public class Main {
             }
 
 
-        } catch (IOException | ClassNotFoundException e) {
-            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        catch (IOException e){
+            System.out.println("User left");
         }
     }
 
