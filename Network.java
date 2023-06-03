@@ -7,6 +7,7 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Date;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Network
@@ -51,6 +52,14 @@ public class Network
                 Packet packet=new Packet(counter,name,new Date(),ask);
 
                 oos.writeObject(packet);
+                if(Objects.equals(ask, "bye") || Objects.equals(ask, "Bye") || Objects.equals(ask, "Goodbye") || Objects.equals(ask, "goodbye"))
+                {
+                    socket.close();
+                    System.exit(0);
+                }
+
+
+
                 if(is==null&&ois==null) {
                     is = socket.getInputStream();
                     ois = new ObjectInputStream(is);

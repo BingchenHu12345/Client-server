@@ -6,13 +6,13 @@ import java.util.Date;
 
 public class Packet implements Serializable {
     public int num;
-    public String bob;
+    public String name;
     public Date date;
     public String word;
-    public Packet(int num,String bob, Date date,String word)
+    public Packet(int num,String name, Date date,String word)
     {
         this.num=num;
-        this.bob=bob;
+        this.name=name;
         this.date=date;
         this.word=word;
     }
@@ -21,7 +21,7 @@ public class Packet implements Serializable {
     public String toString() {
         return "Packet{" +
                 "num=" + num +
-                ", bob='" + bob + '\'' +
+                ", bob='" + name + '\'' +
                 ", date=" + date +
                 ", word='" + word + '\'' +
                 '}';

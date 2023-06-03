@@ -43,6 +43,12 @@ public class Main {
                 Packet packet = new Packet(count,name , new Date(), respond);
 
                 oos.writeObject(packet);
+                if(respond.equals("bye") || respond.equals("Bye") || respond.equals("Goodbye") || respond.equals("goodbye"))
+                {
+                    socket.close();
+                     System.exit(0);
+                }
+
             }
 
 

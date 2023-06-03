@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61b882ba-e5ee-4326-bff5-db2f47fc58a4" name="Changes" comment="EASIEST server evea">
-      <change afterPath="$PROJECT_DIR$/out/production/network/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="61b882ba-e5ee-4326-bff5-db2f47fc58a4" name="Changes" comment="Added chat client">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/Network.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Main.java" afterDir="false" />
@@ -13,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/common/packets/Packet.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/packets/Packet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/client/common/packets/Packet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/common/packets/Packet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/network/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/network/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/network/Network.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/network/Network.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/network/common/packets/Packet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/network/common/packets/Packet.class" afterDir="false" />
     </list>
@@ -109,11 +107,19 @@
       <option name="project" value="LOCAL" />
       <updated>1685214169948</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added chat client">
+      <created>1685814108526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685814108526</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="EASIEST server evea" />
-    <option name="LAST_COMMIT_MESSAGE" value="EASIEST server evea" />
+    <MESSAGE value="Added chat client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added chat client" />
   </component>
 </project>
